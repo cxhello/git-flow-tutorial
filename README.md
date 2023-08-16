@@ -20,3 +20,11 @@ git add README.md feature_git_flow_example_1.txt
 git commit -m "feature_git_flow_example_1 finished"
 git push -u origin feature_git_flow_example
 ```
+
+## 继续开发新feature
+
+```shell
+git add README.md feature_git_flow_example_2.txt
+git commit -m "feature_git_flow_example_2 finished"
+git push -u origin feature_git_flow_example
+```
