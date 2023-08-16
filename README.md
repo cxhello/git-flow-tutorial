@@ -12,3 +12,11 @@ git commit -m "Initial commit"
 git remote add origin https://github.com/cxhello/git-flow-tutorial.git
 git push -u origin develop
 ```
+## 开始新feature开发
+
+```shell
+git checkout -b feature_git_flow_example develop
+git add README.md feature_git_flow_example_1.txt
+git commit -m "feature_git_flow_example_1 finished"
+git push -u origin feature_git_flow_example
+```
